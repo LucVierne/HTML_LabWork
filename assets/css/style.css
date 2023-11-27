@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
   color: #272829;
 }
 
@@ -24,13 +24,36 @@ a:hover {
   text-decoration: none;
 }
 
+video {
+  aspect-ratio: 15/9;
+}
+
+iframe {
+  width: 450px;
+  max-width: 75%;
+  margin: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #117e61;
+  aspect-ratio: 16 / 9;
+}
+
+video, audio {
+  width: 450px;
+  max-width: 75%;
+  margin: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #117e61;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Andale Mono", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -57,7 +80,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #06e339;
   color: #fff;
 }
 
@@ -211,7 +234,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #bb0505;
 }
 
 .nav-menu a:hover span,
