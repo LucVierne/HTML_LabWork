@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Arial", sans-serif;
-  color: #272829;
+  color: #c5ccd2;
+  background-color: #44474a;
 }
 
 a {
@@ -24,6 +25,48 @@ a:hover {
   text-decoration: none;
 }
 
+.inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color: #F082AC;
+}
+
+#carousel {
+  width: 70%;
+  max-height: 50%;
+}
+
 video {
   aspect-ratio: 15/9;
 }
@@ -34,7 +77,7 @@ iframe {
   margin: 20px;
   border-style: solid;
   border-width: 10px;
-  border-color: #117e61;
+  border-color: black;
   aspect-ratio: 16 / 9;
 }
 
@@ -44,7 +87,7 @@ video, audio {
   margin: 20px;
   border-style: solid;
   border-width: 10px;
-  border-color: #117e61;
+  border-color: black;
 }
 
 h1,
@@ -132,7 +175,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0s !important;
   }
 }
 
@@ -297,7 +340,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/Tcherno.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -392,7 +435,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #96acc2;
 }
 
 .section-title h2::before {
@@ -515,7 +558,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #55a1ed;
 }
 
 .skills .progress .skill .val {
@@ -542,7 +585,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #96acc2;
 }
 
 .resume .resume-item {
@@ -564,7 +607,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #9f9f9f;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -1038,7 +1081,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #44474a;
 }
 
 .contact .info i {
@@ -1047,7 +1090,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #44474a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1060,7 +1103,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #96acc2;
 }
 
 .contact .info p {
@@ -1084,7 +1127,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #44474a;
 }
 
 .contact .php-email-form .form-group {
@@ -1115,7 +1158,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #44474a;
   text-align: center;
   padding: 15px;
 }
@@ -1175,8 +1218,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #7ea2c7;
+  color: #36393b;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1192,7 +1235,7 @@ section {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;

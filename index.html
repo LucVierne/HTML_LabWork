@@ -87,7 +87,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/face.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
@@ -453,6 +453,14 @@
 
         </div>
 
+        <div class="inline">
+          <button class="button-1" role="button" onclick="changeImg('prev')"><</button>
+          <img id="carousel" src="assets/img/photo/Andromede.jpg">
+          <button class="button-1" role="button" onclick="changeImg('next')">></button>
+
+          <script src="assets\js\lab11.js"></script>
+        </div>
+
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -547,15 +555,79 @@
 
           <div>
             <video controls>
-              <source src="assets\img\C_450_Coleoptere.mp4" type="video/mp4">
+              <source src="assets\img\C_450_Coleoptere.mp4" type="video">
             </video>
             <iframe width="420" height="315"
             src="https://www.youtube.com/embed/bEgAgJc8Heg">
             </iframe> <br>
 
+
             <audio controls>
-              <source src="assets\img\Lofi_Girl_LEGO.mp3" type="audio/mp3">
-            </audio> 
+              <source src="assets\img\Lofi_Girl_LEGO.mp3" type="audio">
+            </audio> <br>
+
+            <math display="block">
+              <mrow>
+                <mrow><mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo></mrow>
+                <munderover>
+                  <mo>&sum;</mo>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                  </mrow>
+                  <mo>&infin;</mo>
+                </munderover>
+                <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>f</mi>
+                      <mrow><mo>(</mo><mi>n</mi><mo>)</mo></mrow>
+                    </msup>
+                    <mrow><mo>(</mo><mi>a</mi><mo>)</mo></mrow>
+                  </mrow>
+                  <mrow><mi>n</mi><mo>!</mo></mrow>
+                </mfrac>
+                <msup>
+                  <mrow><mo>(</mo><mi>z</mi><mo>-</mo><mi>a</mi><mo>)</mo></mrow>
+                  <mi>n</mi>
+                </msup>
+              </mrow>
+          </math>
+
+          <svg height="160" viewBox="-0.6 -0.6 1.2 1.2" width="160">
+            <g stroke-linecap="round" stroke-width="0.04">
+              <circle cx="0" cy="0" r="0.4" stroke="red" fill="none"/>
+              <circle cx="0" cy="0" r="0.3" stroke="red" fill="none"/>
+              <rect transform="rotate(60)" x="-1" y="0" width="2" height="1" fill="#44474a"/>
+              <rect transform="rotate(300)" x="-1" y="0" width="2" height="1" fill="#44474a"/>
+              <rect transform="rotate(180)" x="-1" y="0" width="2" height="1" fill="#44474a">
+                <animateTransform
+                attributeName="transform"
+                begin="0s"
+                dur="2s"
+                type="rotate"
+                from="0"
+                to="120"
+                repeatCount="indefinite" /></rect>
+              <rect transform="rotate(0)" x="-1" y="0" width="2" height="1" fill="#44474a">
+                <animateTransform
+                attributeName="transform"
+                begin="0s"
+                dur="2s"
+                type="rotate"
+                from="240"
+                to="360"
+                repeatCount="indefinite" /></rect>
+              
+              <line transform="rotate(30)" x1="0" x2="0" y1="0" y2="-0.4" stroke="red" fill="none"/>
+              <line transform="rotate(-30)" x1="0" x2="0" y1="0" y2="-0.4" stroke="red" fill="none"/>
+
+            </g>
+          </svg>
+          
+
+
 
           </div>
           
