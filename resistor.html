@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resistor Color Code</title>
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <button class="button-1" role="button" onclick="calculate()">3 Bands</button>
+            <button class="button-1" role="button" onclick="calculate()">4 Bands</button>
+            <button class="button-1" role="button" onclick="calculate()">5 Bands</button>
+            <button class="button-1" role="button" onclick="calculate()">6 Bands</button>
+        </div>
+
+        <svg height="300" viewBox="0 0 100 100" width="300">
+            <g stroke-width="4">
+                <line x1="5" x2="95" y1="50" y2="50" stroke="#b0b0b0" stroke-linecap="round"/>
+                <rect x="15" y="35" width="70" height="30" stroke="#000000" fill="#bd9a46" rx="10" ry="10" stroke-linejoin="round"/>
+                <line x1="30" x2="30" y1="37" y2="63" stroke="#b0b0b0"/>
+                <line x1="38" x2="38" y1="37" y2="63" stroke="#b0b0b0"/>
+                <line x1="46" x2="46" y1="37" y2="63" stroke="#b0b0b0"/>
+                <line x1="54" x2="54" y1="37" y2="63" stroke="#b0b0b0"/>
+                <line x1="62" x2="62" y1="37" y2="63" stroke="#b0b0b0"/>
+                <line x1="70" x2="70" y1="37" y2="63" stroke="#b0b0b0"/>
+            </g>
+        </svg>
+
+        <div>
+            <select class="button-1" role="button" onclick="calculate()" style="width:100px">1st Bands
+                <option>1st Bands</option>
+                <option value="1" class="brown">1</option>
+                <option value="2" class="red">2</option>
+                <option value="3" class="orange">3</option>
+                <option value="4" class="yellow">4</option>
+                <option value="5" class="green">5</option>
+                <option value="6" class="blue">6</option>
+                <option value="7" class="violet">7</option>
+                <option value="8" class="grey">8</option>
+                <option value="9" class="white">9</option></select>
+
+            <select class="button-1" role="button" onclick="calculate()" style="width:100px">2nd Bands
+                <option>2nd Bands</option>
+                <option value="0" class="black">0</option>
+                <option value="1" class="brown">1</option>
+                <option value="2" class="red">2</option>
+                <option value="3" class="orange">3</option>
+                <option value="4" class="yellow">4</option>
+                <option value="5" class="green">5</option>
+                <option value="6" class="blue">6</option>
+                <option value="7" class="violet">7</option>
+                <option value="8" class="grey">8</option>
+                <option value="9" class="white">9</option></select>
+
+            <select class="button-1" role="button" onclick="calculate()" style="width:100px">3rd Bands
+                <option>3rd Bands</option>
+                <option value="0" class="black">0</option>
+                <option value="1" class="brown">1</option>
+                <option value="2" class="red">2</option>
+                <option value="3" class="orange">3</option>
+                <option value="4" class="yellow">4</option>
+                <option value="5" class="green">5</option>
+                <option value="6" class="blue">6</option>
+                <option value="7" class="violet">7</option>
+                <option value="8" class="grey">8</option>
+                <option value="9" class="white">9</option></select>
+
+            <select class="button-1" role="button" onclick="calculate()" style="width:100px">Multplier
+                <option>Multplier</option>
+                <option value="0" class="black">0</option>
+                <option value="1" class="brown">1</option>
+                <option value="2" class="red">2</option>
+                <option value="3" class="orange">3</option>
+                <option value="4" class="yellow">4</option>
+                <option value="5" class="green">5</option>
+                <option value="6" class="blue">6</option>
+                <option value="7" class="violet">7</option>
+                <option value="8" class="grey">8</option>
+                <option value="9" class="white">9</option>
+                <option value="9" class="gold">-1</option>
+                <option value="9" class="silver">-2</option>
+                <option value="9" class="pink">-3</option></select>
+
+            <select class="button-1" role="button" onclick="calculate()" style="width:100px">Tolerance
+                <option>Tolerance</option>
+                <option value="1" class="brown">1</option>
+                <option value="2" class="red">2</option>
+                <option value="3" class="orange">0.05</option>
+                <option value="4" class="yellow">0.02</option>
+                <option value="5" class="green">0.5</option>
+                <option value="6" class="blue">0.25</option>
+                <option value="7" class="violet">0.1</option>
+                <option value="8" class="grey">0.01</option>
+                <option value="9" class="gold">5</option>
+                <option value="9" class="silver">10</option></select>
+
+            <select class="button-1" role="button" onclick="calculate()" style="width:100px">TCR
+                <option>TCR</option>
+                <option value="0" class="black">250</option>
+                <option value="1" class="brown">100</option>
+                <option value="2" class="red">50</option>
+                <option value="3" class="orange">15</option>
+                <option value="4" class="yellow">25</option>
+                <option value="5" class="green">20</option>
+                <option value="6" class="blue">10</option>
+                <option value="7" class="violet">5</option>
+                <option value="8" class="grey">1</option></select>
+        </div>
+
+
+    </body>
+</html>

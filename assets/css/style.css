@@ -29,10 +29,11 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  
 }
 
 .button-1 {
-  background-color: #EA4C89;
+  background-color: #0015ff;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -59,7 +60,64 @@ a:hover {
 }
 
 .button-1:hover {
-  background-color: #F082AC;
+  background-color: #5765ff;
+}
+
+.black {
+  background-color: black;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  color: black;
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.grey {
+  background-color: gray;
+}
+
+.white {
+  color: black;
+  background-color: white;
+}
+
+.gold {
+  color: black;
+  background-color: gold;
+}
+
+.silver {
+  color: black;
+  background-color: silver;
+}
+
+.pink {
+  color: black;
+  background-color: pink;
 }
 
 #carousel {
